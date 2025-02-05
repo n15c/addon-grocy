@@ -24,3 +24,8 @@ ln -s /data/grocy /var/www/grocy/data
 bashio::log.info "Patching Grocy to fix relative URL handling..."
 cd /var/www/grocy || bashio.exit.nok 'Failed cd'
 patch -p1 < /patches/fix_braindamage.patch || true
+
+# Patch OFF URL
+bashio::log.info "Patching Grocy to use the prod OFF URL..."
+cd /var/www/grocy || bashio.exit.nok 'Failed cd'
+patch -p1 < /patches/fix_barcodelookup.patch || true
