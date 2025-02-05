@@ -1,6 +1,5 @@
 diff --git a/plugins/OpenFoodFactsBarcodeLookupPlugin.php b/plugins/OpenFoodFactsBarcodeLookupPlugin.php
 index 551d2eb0..1ce31f69 100644
-
 --- a/plugins/OpenFoodFactsBarcodeLookupPlugin.php
 +++ b/plugins/OpenFoodFactsBarcodeLookupPlugin.php
 @@ -15,7 +15,7 @@
