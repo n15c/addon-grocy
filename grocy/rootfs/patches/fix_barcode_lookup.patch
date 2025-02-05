@@ -1,7 +1,7 @@
 diff --git a/plugins/OpenFoodFactsBarcodeLookupPlugin.php b/plugins/OpenFoodFactsBarcodeLookupPlugin.php
 index 551d2eb0..1ce31f6e 100644
---- a/plugins/OpenFoodFactsBarcodeLookupPlugin.php
-+++ b/plugins/OpenFoodFactsBarcodeLookupPlugin.php
+--- plugins/OpenFoodFactsBarcodeLookupPlugin.php
++++ plugins/OpenFoodFactsBarcodeLookupPlugin.php
 @@ -15,7 +15,7 @@
         protected function ExecuteLookup($barcode)
         {
