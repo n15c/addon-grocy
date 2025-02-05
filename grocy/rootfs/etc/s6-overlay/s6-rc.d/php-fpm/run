@@ -86,6 +86,11 @@ if bashio::config.false 'tweaks.stock_count_opened_products_against_minimum_stoc
     export GROCY_FEATURE_SETTING_STOCK_COUNT_OPENED_PRODUCTS_AGAINST_MINIMUM_STOCK_AMOUNT=0
 fi
 
+if bashio::config.true 'plugins.stock_barcode_lookup'; then
+    export STOCK_BARCODE_LOOKUP_PLUGIN=true
+fi
+
+
 GROCY_CULTURE=$(bashio::config "culture")
 GROCY_CURRENCY=$(bashio::config "currency")
 GROCY_ENTRY_PAGE=$(bashio::config 'entry_page')
